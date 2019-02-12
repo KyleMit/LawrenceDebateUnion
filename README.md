@@ -52,6 +52,8 @@ live-server
 npm run lint -- --fix
 ```
 
+## Resources
+
 ### Vue CLI
 
 * [Vue CLI Config - `publicPath`](https://cli.vuejs.org/config/#publicpath)
@@ -62,3 +64,8 @@ npm run lint -- --fix
 * [Navbar](https://bootstrap-vue.js.org/docs/components/navbar)
 * [Router Link Support](https://bootstrap-vue.js.org/docs/reference/router-links/)
 * [Router Link Active Style](https://stackoverflow.com/questions/46083220/how-to-vuejs-router-link-active-style)
+
+### Vue Router
+
+* [Router Transitions](https://router.vuejs.org/guide/advanced/transitions.html#per-route-transition)
+* [Router Transitions Demo](https://markus.oberlehner.net/blog/vue-router-page-transitions/)
