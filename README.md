@@ -37,3 +37,20 @@ npm run serve
 npm run build
 ```
 
+Test Locally with [live-server](https://www.npmjs.com/package/live-server):
+
+```bash
+cd dist
+live-server
+```
+
+## Linting
+
+```bash
+npm run lint -- --fix
+```
+
+### Vue
+
+* [Vue CLI Config - `publicPath`](https://cli.vuejs.org/config/#publicpath)
+* [Vue CLI Environment Variables](https://cli.vuejs.org/guide/mode-and-env.html#modes)
