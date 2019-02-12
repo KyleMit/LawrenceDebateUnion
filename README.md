@@ -9,21 +9,24 @@
 * [Bootstrap Vue](https://bootstrap-vue.js.org/)
 * [gh-pages](https://www.npmjs.com/package/gh-pages)
 
-## Initialize Project
+## Project Setup
+
+**Global - One Time Setup**
 
 ```bash
 npm install -g @vue/cli
+npm install
+cd www
+```
+
+**Project - One Time Setup**
+
+```bash
 vue create www
 cd www
 npm install gh-pages --save-dev
 npm install bootstrap-vue --save
 npm install bootstrap --save
-```
-
-## Project setup
-
-```bash
-npm install
 ```
 
 ### Compiles and hot-reloads for development
@@ -49,8 +52,22 @@ live-server
 ## Linting
 
 ```bash
-npm run lint -- --fix
+npm run lint --fix
 ```
+
+## Todo
+
+[x] Vue CLI 3 Init
+[x] Add gh-pages build process
+[x] Scaffold Pages
+[x] Add Bootstrap
+[x] Add Page Transitions
+[x] Add custom styles
+[ ] Navbar dropdowns
+[ ] Page Content
+[ ] Card Component Wrapper
+[ ] Build process with color themeing
+
 
 ## Resources
 

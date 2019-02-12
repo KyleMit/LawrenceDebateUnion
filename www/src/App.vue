@@ -96,6 +96,14 @@
     font-size: .9em;
   }
 
+  .navbar-expand-sm {
+      justify-content: flex-start;
+  }
+  .navbar-brand {
+      flex-grow: 1;
+      text-align: center;
+  }
+
   .container {
       margin-top: 20px;
   }
