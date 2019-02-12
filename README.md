@@ -16,6 +16,8 @@ npm install -g @vue/cli
 vue create www
 cd www
 npm install gh-pages --save-dev
+npm install bootstrap-vue --save
+npm install bootstrap --save
 ```
 
 ## Project setup
