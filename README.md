@@ -63,7 +63,7 @@ npm run lint --fix
 [x] Add Bootstrap
 [x] Add Page Transitions
 [x] Add custom styles
-[ ] Navbar dropdowns
+[x] Navbar dropdowns
 [ ] Page Content
 [ ] Card Component Wrapper
 [ ] Build process with color themeing

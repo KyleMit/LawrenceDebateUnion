@@ -11,9 +11,17 @@
       <b-collapse is-nav id="nav_collapse">
 
         <b-navbar-nav>
-          <b-nav-item to="/news">News</b-nav-item>
-          <b-nav-item to="/events">Events</b-nav-item>
+
+          <b-nav-item-dropdown text="Upcoming">
+            <b-dropdown-item to="/events">Events</b-dropdown-item>
+          </b-nav-item-dropdown>
+
+          <b-nav-item-dropdown text="Resources">
+            <b-dropdown-item to="/news">News</b-dropdown-item>
+          </b-nav-item-dropdown>
+
           <b-nav-item to="/contact">Contact</b-nav-item>
+
         </b-navbar-nav>
 
       </b-collapse>
@@ -73,9 +81,11 @@
       border-right: 24px solid transparent;
   }
 
-
   .corner-callout {
-    border-radius: 20px 0px 2px 0px;
+    border-radius: 20px 0px 2px 0px !important;
+    bottom: 0;
+    right: 0;
+    position: absolute;
   }
 </style>
 
@@ -103,6 +113,12 @@
       flex-grow: 1;
       text-align: center;
   }
+  @media (min-width: 576px) {
+      .navbar-brand {
+        flex-grow: 0;
+    }
+  }
+
 
   .container {
       margin-top: 20px;
