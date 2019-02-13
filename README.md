@@ -1,4 +1,4 @@
-# LawrenceDebateUnion
+# Lawrence Debate Union
 
 ## Dependencies
 
@@ -11,7 +11,7 @@
 
 ## Project Setup
 
-**Global - One Time Setup**
+### Global - One Time Setup
 
 ```bash
 npm install -g @vue/cli
@@ -19,7 +19,7 @@ npm install
 cd www
 ```
 
-**Project - One Time Setup**
+### Project - One Time Setup
 
 ```bash
 vue create www
@@ -42,11 +42,13 @@ npm run serve
 npm run build
 ```
 
-Test Locally with [live-server](https://www.npmjs.com/package/live-server):
+Test Build Locally with [live-server](https://www.npmjs.com/package/live-server) & [http-proxy-cli](https://www.npmjs.com/package/http-proxy-cli):
 
 ```bash
 cd dist
-live-server
+live-server --host=localhost --port 8012
+http-proxy /LawrenceDebateUnion=localhost:8012
+start http://localhost:8012/LawrenceDebateUnion/
 ```
 
 ## Linting
@@ -57,16 +59,23 @@ npm run lint --fix
 
 ## Todo
 
-[x] Vue CLI 3 Init
-[x] Add gh-pages build process
-[x] Scaffold Pages
-[x] Add Bootstrap
-[x] Add Page Transitions
-[x] Add custom styles
-[x] Navbar dropdowns
-[ ] Page Content
-[ ] Card Component Wrapper
-[ ] Build process with color themeing
+* [x] Vue CLI 3 Init
+* [x] Add gh-pages build process
+* [x] Scaffold Pages
+* [x] Add Bootstrap
+* [x] Add Page Transitions
+* [x] Add custom styles
+* [x] Navbar dropdowns
+* [ ] Markdown-based content
+* [ ] Full Text Search
+* [ ] Users Stories / Journey Mapping / Information Hierarchy
+  * Who is coming to the site?  What are they looking to do?  Is it easy to do that thing?
+* [ ] Page Content
+* [ ] Card Component Wrapper
+* [ ] Build process with color theming
+* [ ] Store Copy (probably markdown) on Database
+* [ ] User Log-in (enables role based access)
+* [ ] Inline copy editing
 
 
 ## Resources
