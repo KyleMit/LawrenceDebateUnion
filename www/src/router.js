@@ -1,9 +1,11 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+
 import Home from './views/Home.vue';
 import Contact from './views/Contact.vue';
 import Events from './views/Events.vue';
 import News from './views/News.vue';
+import Videos from './views/Videos.vue';
 
 Vue.use(Router);
 
@@ -28,6 +30,11 @@ export default new Router({
       path: '/events',
       name: 'events',
       component: Events,
+    },
+    {
+      path: '/myvids',
+      name: 'vids',
+      component: Videos,
     },
   ],
 });

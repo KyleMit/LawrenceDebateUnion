@@ -15,7 +15,7 @@
 
             <b-nav-item-dropdown text="Resources">
                 <b-dropdown-item to="/news">News</b-dropdown-item>
-                <b-dropdown-item :to="{name: 'vids'}">Videos</b-dropdown-item>
+                <b-dropdown-item :to="{name: 'videos'}">Videos</b-dropdown-item>
             </b-nav-item-dropdown>
 
             <b-nav-item to="/contact">Contact</b-nav-item>
