@@ -99,3 +99,4 @@ npm run lint --fix
 ### WebPack
 
 * [ES Lint Linebreaks](https://stackoverflow.com/a/44662845/1366033)
+* [Static Asset - Relative Path Imports via File Loader](https://cli.vuejs.org/guide/html-and-static-assets.html#static-assets-handling)

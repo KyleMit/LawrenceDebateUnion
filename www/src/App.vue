@@ -8,7 +8,7 @@
 
       <transition name="fly"
                   mode="out-in">
-                  
+
         <!-- the main content of the page -->
         <router-view/>
 
