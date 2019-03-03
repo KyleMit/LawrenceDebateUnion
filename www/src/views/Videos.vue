@@ -7,7 +7,12 @@
           style="max-width: 40rem;"
           class="mb-2">
     <p class="card-text">
-      Some Video Descriptions
+      <vue-markdown>
+
+Some Video Descriptions
+
+      </vue-markdown>      
+
     </p>
   </b-card>
 

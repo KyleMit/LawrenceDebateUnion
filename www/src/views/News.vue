@@ -7,17 +7,17 @@
           style="max-width: 40rem;"
           class="mb-2">
     <div class="card-text">
-      <p>
-        Updates from the Tournament of Love (Novice Nationals at Cornell University):
-      </p>
-      <p>
-        In other news, things do happen sometimes. Here's a list of such things:
-      </p>
-      <ul>
-        <li>War</li>
-        <li>Chicken nugs</li>
-        <li>Kiddos</li>
-      </ul>
+      <vue-markdown>
+
+Updates from the Tournament of Love (Novice Nationals at Cornell University):
+
+In other news, things do happen sometimes. Here's a list of such things:
+
+* War
+* Chicken Nuggets
+* Kiddos
+
+      </vue-markdown>
     </div>
   </b-card>
 

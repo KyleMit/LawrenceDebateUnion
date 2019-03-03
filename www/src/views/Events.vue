@@ -7,24 +7,17 @@
           style="max-width: 40rem;"
           class="mb-2">
     <p class="card-text">
-      <ul>
-        <li>
-          UVM Debaters at the Vermont State House
-            <ul>
-              <li>What should recreational marijuana legislation look like?</li>
-            </ul>
-        </li>
-        <li>
-          Public Debate: <a href="https://www.facebook.com/events/2753132708245373/">Facebook Link</a>
-          <ul>
-            <li>Prioritization of STEM in Higher Education</li>
-            <li>Location: Sugar Maple Ballroom, Davis Center</li>
-            <li>Date: February 27</li>
-            <li>7:00pm --> 8:30pm</li>
-          </ul>
-        </li>
-      </ul>
+      <vue-markdown>
 
+* UVM Debaters at the Vermont State House
+  * What should recreational marijuana legislation look like?
+* Public Debate: [Facebook Link](https://www.facebook.com/events/2753132708245373/)
+  * Prioritization of STEM in Higher Education
+  * Location: Sugar Maple Ballroom, Davis Center
+  * Date: February 27
+  * 7:00pm --> 8:30pm
+
+      </vue-markdown>
     </p>
   </b-card>
 

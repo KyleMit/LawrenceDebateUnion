@@ -100,3 +100,8 @@ npm run lint --fix
 
 * [ES Lint Linebreaks](https://stackoverflow.com/a/44662845/1366033)
 * [Static Asset - Relative Path Imports via File Loader](https://cli.vuejs.org/guide/html-and-static-assets.html#static-assets-handling)
+
+### Vue-Markdown
+
+* [Syntax Demo](https://miaolz123.github.io/vue-markdown/)
+* [Register the VueMarkdown component as a global component](https://github.com/miaolz123/vue-markdown/issues/61)

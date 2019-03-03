@@ -32,8 +32,8 @@ export default new Router({
       component: Events,
     },
     {
-      path: '/myvids',
-      name: 'vids',
+      path: '/videos',
+      name: 'videos',
       component: Videos,
     },
   ],

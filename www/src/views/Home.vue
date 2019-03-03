@@ -7,7 +7,11 @@
           style="max-width: 40rem;"
           class="mb-2">
     <p class="card-text">
-      Empire Debates: March 2nd through 3rd
+      <vue-markdown>
+
+Empire Debates: March 2nd through 3rd
+
+      </vue-markdown>
     </p>
     <b-button to="/events" variant="primary" class="corner-callout">Explore</b-button>
   </b-card>
