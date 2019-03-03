@@ -45,10 +45,10 @@ npm run build
 Test Build Locally with [live-server](https://www.npmjs.com/package/live-server) & [http-proxy-cli](https://www.npmjs.com/package/http-proxy-cli):
 
 ```bash
-cd dist
-live-server --host=localhost --port 8012
-http-proxy /LawrenceDebateUnion=localhost:8012
-start http://localhost:8012/LawrenceDebateUnion/
+cd www/dist
+live-server --host=localhost --port=8080
+http-proxy /LawrenceDebateUnion=localhost:8080
+start http://localhost:8000/LawrenceDebateUnion/
 ```
 
 ## Linting
@@ -95,3 +95,7 @@ npm run lint --fix
 
 * [Router Transitions](https://router.vuejs.org/guide/advanced/transitions.html#per-route-transition)
 * [Router Transitions Demo](https://markus.oberlehner.net/blog/vue-router-page-transitions/)
+
+### WebPack
+
+* [ES Lint Linebreaks](https://stackoverflow.com/a/44662845/1366033)
