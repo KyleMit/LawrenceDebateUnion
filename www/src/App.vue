@@ -5,12 +5,17 @@
     <Navbar/>
 
     <b-container >
+
       <transition name="fly"
                   mode="out-in">
+                  
+        <!-- the main content of the page -->
         <router-view/>
-      </transition>
-    </b-container>
 
+      </transition>
+
+
+    </b-container>
 
     <Footer/>
 
@@ -71,7 +76,7 @@ export default {
   /* customize navbar */
   @import url('https://fonts.googleapis.com/css?family=Farsan');
   #app .bg-success {
-    background-color:        hsla(120, 35%, 57%);
+    background-color:        #378d4b !important;
     border-bottom: 2px solid hsla(120, 57%, 31%);
   }
   #app .navbar-dark .navbar-brand {
