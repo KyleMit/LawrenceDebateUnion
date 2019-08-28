@@ -1,5 +1,7 @@
 # Lawrence Debate Union
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6cd1aba-79fc-476a-92d8-c5f7634b910d/deploy-status)](https://app.netlify.com/sites/ldu/deploys)
+
 ## Dependencies
 
 * [Vue 2.6](https://vuejs.org/)
@@ -16,14 +18,11 @@
 ```bash
 npm install -g @vue/cli
 npm install
-cd www
 ```
 
 ### Project - One Time Setup
 
 ```bash
-vue create www
-cd www
 npm install gh-pages --save-dev
 npm install bootstrap-vue --save
 npm install bootstrap --save
@@ -32,7 +31,6 @@ npm install bootstrap --save
 ### Compiles and hot-reloads for development
 
 ```bash
-cd www
 npm run serve
 ```
 
@@ -45,7 +43,6 @@ npm run build
 Test Build Locally with [live-server](https://www.npmjs.com/package/live-server) & [http-proxy-cli](https://www.npmjs.com/package/http-proxy-cli):
 
 ```bash
-cd www/dist
 live-server --host=localhost --port=8080
 http-proxy /LawrenceDebateUnion=localhost:8080
 start http://localhost:8000/LawrenceDebateUnion/
