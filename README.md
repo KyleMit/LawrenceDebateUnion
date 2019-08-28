@@ -85,6 +85,7 @@ npm run lint --fix
 ### Bootstrap Vue
 
 * [Navbar](https://bootstrap-vue.js.org/docs/components/navbar)
+* [Navbar Collapse / Toggle Breakpoint](https://bootstrap-vue.js.org/docs/components/navbar#comp-ref-b-navbar-props)
 * [Router Link Support](https://bootstrap-vue.js.org/docs/reference/router-links/)
 * [Router Link Active Style](https://stackoverflow.com/questions/46083220/how-to-vuejs-router-link-active-style)
 
@@ -103,6 +104,7 @@ npm run lint --fix
 
 * [Syntax Demo](https://miaolz123.github.io/vue-markdown/)
 * [Register the VueMarkdown component as a global component](https://github.com/miaolz123/vue-markdown/issues/61)
+
 ### Netlify
 
 * [Deploying Vue CLI to Netlify](https://cli.vuejs.org/guide/deployment.html#netlify)
