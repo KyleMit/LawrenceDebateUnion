@@ -92,6 +92,7 @@ npm run lint --fix
 
 * [Router Transitions](https://router.vuejs.org/guide/advanced/transitions.html#per-route-transition)
 * [Router Transitions Demo](https://markus.oberlehner.net/blog/vue-router-page-transitions/)
+* [History Mode](https://router.vuejs.org/guide/essentials/history-mode.html)
 
 ### WebPack
 
@@ -102,3 +103,7 @@ npm run lint --fix
 
 * [Syntax Demo](https://miaolz123.github.io/vue-markdown/)
 * [Register the VueMarkdown component as a global component](https://github.com/miaolz123/vue-markdown/issues/61)
+### Netlify
+
+* [Deploying Vue CLI to Netlify](https://cli.vuejs.org/guide/deployment.html#netlify)
+* [Index Redirects](https://www.netlify.com/docs/redirects/#rewrites-and-proxying)
